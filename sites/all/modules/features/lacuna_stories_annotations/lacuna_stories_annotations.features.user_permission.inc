@@ -26,6 +26,7 @@ function lacuna_stories_annotations_user_default_permissions() {
     'roles' => array(
       'Content Manager' => 'Content Manager',
       'Instructor' => 'Instructor',
+      'Participant' => 'Participant',
       'Site Administrator' => 'Site Administrator',
       'Student' => 'Student',
     ),
@@ -38,6 +39,7 @@ function lacuna_stories_annotations_user_default_permissions() {
     'roles' => array(
       'Content Manager' => 'Content Manager',
       'Instructor' => 'Instructor',
+      'Participant' => 'Participant',
       'Site Administrator' => 'Site Administrator',
       'Student' => 'Student',
     ),
@@ -59,6 +61,7 @@ function lacuna_stories_annotations_user_default_permissions() {
     'name' => 'delete own annotation content',
     'roles' => array(
       'Content Manager' => 'Content Manager',
+      'Participant' => 'Participant',
       'Site Administrator' => 'Site Administrator',
       'authenticated user' => 'authenticated user',
     ),
@@ -100,6 +103,7 @@ function lacuna_stories_annotations_user_default_permissions() {
     'name' => 'edit own annotation content',
     'roles' => array(
       'Content Manager' => 'Content Manager',
+      'Participant' => 'Participant',
       'Site Administrator' => 'Site Administrator',
       'authenticated user' => 'authenticated user',
     ),
@@ -112,6 +116,7 @@ function lacuna_stories_annotations_user_default_permissions() {
     'roles' => array(
       'Content Manager' => 'Content Manager',
       'Instructor' => 'Instructor',
+      'Participant' => 'Participant',
       'Site Administrator' => 'Site Administrator',
       'Student' => 'Student',
     ),
@@ -152,6 +157,7 @@ function lacuna_stories_annotations_user_default_permissions() {
   $permissions['publish own annotation content'] = array(
     'name' => 'publish own annotation content',
     'roles' => array(
+      'Participant' => 'Participant',
       'Site Administrator' => 'Site Administrator',
       'authenticated user' => 'authenticated user',
     ),
@@ -194,6 +200,7 @@ function lacuna_stories_annotations_user_default_permissions() {
     'roles' => array(
       'Content Manager' => 'Content Manager',
       'Instructor' => 'Instructor',
+      'Participant' => 'Participant',
       'Site Administrator' => 'Site Administrator',
       'Student' => 'Student',
     ),

@@ -160,6 +160,7 @@ function course_views_default_views() {
   $handler->display->display_options['group_by'] = TRUE;
   $handler->display->display_options['access']['type'] = 'role';
   $handler->display->display_options['access']['role'] = array(
+    1 => '1',
     2 => '2',
   );
   $handler->display->display_options['cache']['type'] = 'none';
@@ -331,7 +332,7 @@ function course_views_default_views() {
   $handler->display->display_options['empty']['area']['table'] = 'views';
   $handler->display->display_options['empty']['area']['field'] = 'area';
   $handler->display->display_options['empty']['area']['empty'] = TRUE;
-  $handler->display->display_options['empty']['area']['content'] = 'No studies.';
+  $handler->display->display_options['empty']['area']['content'] = 'Your Eligible Studies: ';
   $handler->display->display_options['empty']['area']['format'] = 'filtered_html';
 
   /* Display: Not Enrolled block */

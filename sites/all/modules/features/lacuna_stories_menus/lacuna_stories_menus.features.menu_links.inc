@@ -130,26 +130,6 @@ function lacuna_stories_menus_menu_default_menu_links() {
     'weight' => -47,
     'customized' => 1,
   );
-  // Exported menu link: menu-institutional-menu_about:http://www.lacunastories.com.
-  $menu_links['menu-institutional-menu_about:http://www.lacunastories.com'] = array(
-    'menu_name' => 'menu-institutional-menu',
-    'link_path' => 'http://www.lacunastories.com',
-    'router_path' => '',
-    'link_title' => 'About',
-    'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
-      'identifier' => 'menu-institutional-menu_about:http://www.lacunastories.com',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 1,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -50,
-    'customized' => 1,
-  );
   // Exported menu link: menu-institutional-menu_log-in:user/login.
   $menu_links['menu-institutional-menu_log-in:user/login'] = array(
     'menu_name' => 'menu-institutional-menu',
@@ -213,7 +193,6 @@ function lacuna_stories_menus_menu_default_menu_links() {
 
   // Translatables
   // Included for use with string extractors like potx.
-  t('About');
   t('Account');
   t('Connect');
   t('Create');
