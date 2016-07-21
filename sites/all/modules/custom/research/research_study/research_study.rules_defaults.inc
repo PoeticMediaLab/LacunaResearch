@@ -94,7 +94,7 @@ function research_study_default_rules_configuration() {
         }
       ],
       "DO" : [
-        { "drupal_message" : { "message" : "Thank you for participating in our study. You may log out \\u003Ca href=\\u0022http:\\/\\/192.168.44.44\\/LacunaResearch\\/user\\/logout\\u0022\\u003EHere\\u003C\\/a\\u003E" } }
+        { "drupal_message" : { "message" : "Thank you for participating in our study. You may log out \\u003Ca href=\\u0022..\\/..\\/user\\/logout\\u0022\\u003EHere\\u003C\\/a\\u003E" } }
       ]
     }
   }');
